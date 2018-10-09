@@ -19,6 +19,8 @@ export default class App extends Component {
 
 	render() {
 		return (
+			<div id="viewer"></div>  
+			/*
 			<div id="app">
 				<Header />
 				<Router onChange={this.handleRoute}>
@@ -27,6 +29,7 @@ export default class App extends Component {
 					<Profile path="/profile/:user" />
 				</Router>
 			</div>
+			*/
 		);
 	}
 }

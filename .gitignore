@@ -4,3 +4,7 @@ node_modules
 *.lock
 
 package-lock.json
+
+firebase.json
+.firebase
+.firebaserc
