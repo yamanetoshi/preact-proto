@@ -30,8 +30,10 @@
 -->
 	<script>
 		window.onload = function() {
+			var w = window.innerWidth;
+			var h = window.innerHeight;
 	  		var path = './assets/R0010058.jpg';
-  			var img1 = new ThView({id:'viewer', file: path });	
+  			var img1 = new ThView({id:'viewer', file: path, rotation: false, width: w, height: h});	
 		}
 	</script>
 	<script defer="defer" src="/bundle.b8855.js"></script>
